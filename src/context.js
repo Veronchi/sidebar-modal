@@ -7,7 +7,6 @@ const AppProvider = ({ children }) => {
   const [isOpenSideBar, setIsOpenSideBar] = useState(false);
 
   const openModal = () => {
-    console.log(111)
     setIsOpenModal(true);
   };
   const closeModal = () => {
